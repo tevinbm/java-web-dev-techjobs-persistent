@@ -5,3 +5,4 @@
 ## Part 3: Test it with SQL
 -- DROP TABLE jobs;
 ## Part 4: Test it with SQL
+--return list of names and description
