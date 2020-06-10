@@ -5,4 +5,10 @@
 ## Part 3: Test it with SQL
 -- DROP TABLE jobs;
 ## Part 4: Test it with SQL
---return list of names and description
+--SELECT names,description
+  FROM skill
+  INNER JOIN job_skills ON skill.id = job_skills_id
+  WHERE job_skill.jobs_id IS NOT NULL
+  ORDER BY name ASC;
+
+
